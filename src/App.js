@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>WDA PROJECT</h1>
+      <h1>WDA project do it</h1>
     </>
   );
 }
