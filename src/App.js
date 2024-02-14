@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar";
+import "./App.css";
+
 function App() {
   return (
     <>
-      <h1>WDA project do it</h1>
+      <Navbar></Navbar>
     </>
   );
 }
