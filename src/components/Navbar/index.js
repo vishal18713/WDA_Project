@@ -8,25 +8,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <>
-      {/* <Nav>
-        <Navcontainer>
-            <Logo to='/'>vishal</Logo>
-            <MobileIcon>
-                <Bars></Bars>
-            </MobileIcon>
-            <NavMenue>
-                <Navitem>
-                    <NavLinks to='/'>About</NavLinks>
-                </Navitem>
-                <Navitem>
-                    <NavLinks to='/'>contact us</NavLinks>
-                </Navitem>
-                <Navitem>
-                    <NavLinks to='/'>About</NavLinks>
-                </Navitem>
-            </NavMenue>
-        </Navcontainer>
-    </Nav> */}
+
 
       <div className="Navbar">
         <div className="Navbar_link">
