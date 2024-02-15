@@ -4,6 +4,7 @@
   align-items: center;
 
   padding: 2rem 6rem;
+  background-color: aqua;
 }
 .Navbar_link {
   flex: 1;
@@ -13,10 +14,13 @@
 }
 .Navbar_link_logo {
   margin-right: 2rem;
+  background-color: #FF4820;
+  padding: 30px 30px 30px 30px;
 }
 .Navbar_link_container {
   display: flex;
   flex-direction: row;
+  background-color: blueviolet;
 }
 .Navbar_sign {
   display: flex;
