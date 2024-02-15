@@ -67,7 +67,7 @@ color:red;
   text-align:center;
   margin-right:22px;
   height:440px;
-  background:yellow;
+  background:transparent;
   
 
   @media screen and (max-width: 980px) {
@@ -83,7 +83,7 @@ color:red;
 
   `
   export const NavLinks =  styled(LinkS)`
-  color:red;
+  color:yellow;
   display:flex;
   align-item:center;
   text-decoration:none;
