@@ -3,25 +3,47 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 2rem 6rem;
-  background-color: aqua;
+  padding: 2rem 2rem;
+  background-color: black;
 }
 .Navbar_link {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+ 
 }
 .Navbar_link_logo {
-  margin-right: 2rem;
-  background-color: #FF4820;
-  padding: 30px 30px 30px 30px;
+  margin-right: 2rem; /* Add margin to shift the logo to the left */
+  background-color: black;
+  font-size: 24px;
+  color: white;
+  /* padding: 30px 30px 30px 30px; */
+
 }
-.Navbar_link_container {
-  display: flex;
-  flex-direction: row;
-  background-color: blueviolet;
-}
+/* .Navbar_link_container {
+  display: flex; */
+  .Navbar_link_container {
+    display: flex;
+    justify-content: flex-end; /* Change justify-content to flex-end */
+    align-items: flex-end;
+    flex-direction: row;
+    
+    text-align: end;
+   
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    /* top: 40px; */
+    margin-top: 1rem;
+    margin-right: 10rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+  }
+  /* flex-direction: row;
+  background-color:black;
+} */
 .Navbar_sign {
   display: flex;
   justify-content: flex-end;
@@ -29,7 +51,7 @@
 }
 .Navbar_link_container p,
 .Navbar_menu_container p {
-  color:black;
+  color:white;
  
   font-weight: 500;
   font-size: 18px;
