@@ -14,11 +14,11 @@ const Navbar = () => {
         <div className="Navbar_link">
           <div className="Navbar_link_logo">VISHAL</div>
           <div className="Navbar_link_container">
-                <p><a>Home</a></p>
-                <p><a>About</a></p>
-                <p><a>contact</a></p>
-                <p><a>visit</a></p>
-                <p><a>call</a></p>
+                <p><a href="/home">Home</a></p>
+                <p><a href="/about">About Us</a></p>
+                <p><a href="/contact">contact</a></p>
+                <p><a href="/visit">visit</a></p>
+                <p><a href="/call">call</a></p>
           </div>
         </div>
         <div className="Navbar_sign">
@@ -32,11 +32,11 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="Navbar_menu_container scale-up-center">
           <div className="Navbar_menu_container_links">
-                <p><a>Home</a></p>
-                <p><a>About</a></p>
-                <p><a>contact</a></p>
-                <p><a>visit</a></p>
-                <p><a>call</a></p>
+                <p><a href="/home">Home</a></p>
+                <p><a href="/about">About Us</a></p>
+                <p><a href="/contact">contact</a></p>
+                <p><a href="/visit">visit</a></p>
+                <p><a href="/call">call</a></p>
           </div>
           <div className="Navbar_menu_container_links_sign">
             
